@@ -1,0 +1,53 @@
+:root {
+    --input-border: #adadad;
+    --color-grey: #adadad;
+    --color-red: #c8242f;
+    --color-white: #ffffff;
+    --bg-white: #fafafa;
+    --bg-hover: #fff3f4;
+    --font-primary: "Roboto", sans-serif;
+    --navbar-height: 80px;
+  }
+  
+  body {
+    background: #fafafa !important;
+    /* background: black !important; */
+    min-height: 100vh;
+    font-family: var(--font-primary) !important;
+    padding-top: var(--navbar-height);
+  }
+  
+  .left_img_container {
+    height: 36rem;
+    width: 36rem;
+  }
+  
+  .img_container {
+    border-width: 1.25rem !important;
+    box-shadow: 0px 4px 31px #0000000a;
+  }
+  
+  .main_container {
+    padding: 4.5rem 0;
+  }
+  
+  .form-container {
+    width: 500px;
+  }
+  
+  .text-red {
+    color: var(--color-red) !important;
+  }
+  
+  .text-grey {
+    color: var(--color-grey) !important;
+  }
+  
+  .text-loginHeading {
+    font: normal normal normal 25px/33px Roboto !important;
+  }
+  
+  .input-box {
+    border: 2px solid var(--color-grey) !important;
+    border-radius: 5px;
+  }
